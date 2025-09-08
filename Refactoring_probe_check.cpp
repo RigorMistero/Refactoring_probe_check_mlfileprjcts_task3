@@ -1,6 +1,7 @@
-﻿#include <iostream>
+﻿
 #include "Figure.h"
 #include "Three_angled_figures.h"
+#include <iostream>
 
 /*
 class Quadrangle : public Figure
@@ -221,7 +222,7 @@ int main(int argc, char** argv)
     std::cout << "Sides: a = " << triangle.get_side_a() << ", b = " << triangle.get_side_b() << ", c = " << triangle.get_side_c() << std::endl;
     std::cout << "Angles: A = " << triangle.get_angle_A() << ", B = " << triangle.get_angle_B() << ", C = " << triangle.get_angle_C() << std::endl;
     std::cout << std::endl;
-    /*
+    
     Rectangular_Triangle rectangular_triangle(10, 20, 30, 30, 60); //   Child child;
 
     Figure* figure2 = &rectangular_triangle;
@@ -248,7 +249,7 @@ int main(int argc, char** argv)
     std::cout << "Angles: A = " << equiltrian.get_angle_A() << ", B = " << equiltrian.get_angle_B() << ", C = " << equiltrian.get_angle_C() << std::endl;
     std::cout << std::endl;
     
-    
+    /*
     Quadrangle guadrangle(10, 20, 30, 40, 50, 60, 70, 80);
 
     Figure* figure5 = &guadrangle;
