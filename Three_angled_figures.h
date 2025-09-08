@@ -8,13 +8,13 @@ protected:
     int sides_count = 3;
     int angles_count = 3;
 
-    int side_a;
-    int side_b;
-    int side_c;
+    int side_a = 0;
+    int side_b = 0;
+    int side_c = 0;
 
-    int angle_A;
-    int angle_B;
-    int angle_C;
+    int angle_A = 0;
+    int angle_B = 0;
+    int angle_C = 0;
 
 public:
     Triangle(int value_Side1, int value_Side2, int value_Side3, int value_Agle1, int value_Agle2, int value_Agle3)
